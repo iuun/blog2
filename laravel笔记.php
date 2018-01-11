@@ -6,3 +6,5 @@ namespace 代表的是 命名空间
 渲染视图view 方法接收两个参数，第一个参数是视图的路径名称，第二个参数是与视图绑定的数据（可选）
 
 view文件中重复的代码都放在views/layout/文件下
+
+yarn install --no-bin-links【安装yarn】
