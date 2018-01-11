@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -16,7 +16,8 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'name', 'email', 'password',
-    ];
+    ]; //只有包含在 fillable 数组中的字段，才可以被正常更新
+
 
     /**
      * The attributes that should be hidden for arrays.
